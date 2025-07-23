@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+
+  
+  <div class="container">
+    <h1>Guess the Number</h1>
+
+    <p class="diff">Choose difficulty (easy, medium, hard)</p>
+    <select name="diff" id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <p id="text" class="diff diff2"></p>
+    <div class="inok">
+      <input type="number" name="num" id="num" placeholder="---">
+      <button type="button" id="btn">Ok</button>
+    </div>
+
+    <p id="con"></p>
+
+    <button type="button" id="new-game">New Game</button>
+
+  </div>
+
+  <footer>
+    <p>Created by MD. Akramul Hossain Shishir</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
